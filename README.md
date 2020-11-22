@@ -1,17 +1,11 @@
-# Progressive Web App Example - Weather
+# Weather-PWA
+A Simple Progressive Web App for Weather
 
-Full implementation of weather progressive web app based on :
-https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/, including few additional tweaks.
+<img src="https://i.imgur.com/Ch68mr8.jpg"/>
 
-Web instance of this codebase:
-https://weather-7f26a.firebaseapp.com/
+Steps for Running this App locally:
 
-
-## Running locally
-
-
-## Running on firebase
-
-1. Create new project in https://console.firebase.google.com/
-2. Run `firebase init`
-3. Run `firebase deploy`
+1. Obtain a API key from https://openweathermap.org
+2. Update the same in app.js
+3. Use any web server to run this project
+  

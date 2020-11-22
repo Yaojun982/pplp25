@@ -1,42 +1,18 @@
 {
-  "name": "vuetify-material-dashboard",
-  "version": "1.0.0",
+  "name": "AyushiWeatherPWA",
+  "description": "My first Progressive Web App for Weather",
+  "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "dev": "npm run serve"
-  },
-  "dependencies": {
-    "@vue/cli-plugin-pwa": "^3.11.0",
-    "chartist": "0.11.0",
-    "firebase": "^6.4.2",
-    "node-sass": "^4.9.3",
-    "register-service-worker": "^1.6.2",
-    "sass-loader": "^7.1.0",
-    "vue": "^2.5.17",
-    "vue-axios": "^2.1.4",
-    "vue-chartist": "^2.1.2",
-    "vue-meta": "^1.5.2",
-    "vue-offline": "^2.0.8",
-    "vuetify": "^1.2.9"
-  },
+  "license": "Apache2",
+  "dependencies": {},
   "devDependencies": {
-    "@mdi/font": "^2.5.94",
-    "@vue/cli-plugin-babel": "^3.0.1",
-    "@vue/cli-plugin-eslint": "^3.0.1",
-    "@vue/cli-service": "^3.0.1",
-    "@vue/eslint-config-standard": "^3.0.1",
-    "axios": "^0.19.0",
-    "material-design-icons-iconfont": "^3.0.3",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "vue-analytics": "^5.8.0",
-    "vue-i18n": "^7.4.0",
-    "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.5.17",
-    "vuex": "^3.0.1",
-    "vuex-router-sync": "^5.0.0"
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "sw-precache": "^5.0.0"
   }
 }
